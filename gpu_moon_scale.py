@@ -164,7 +164,7 @@ def main():
     print("║     MI300X / ROCm / FLOAT64 / STREAMED                   ║")
     print("╚════════════════════════════════════════════════════════════╝")
 
-    benchmark(10_000_000_000, chunk_size=10_000_000)
+    benchmark(100_000_000_000, chunk_size=10_000_000)
 
 
 if __name__ == "__main__":
